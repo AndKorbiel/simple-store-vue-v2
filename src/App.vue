@@ -31,7 +31,7 @@
 <style>
   body {
     background-color: #303c29;
-    background-image: url("https://i.etsystatic.com/12928818/r/il/bf6df6/1272227789/il_794xN.1272227789_ko7l.jpg");
+    background-image: url("assets/bg.jpg");
     background-repeat: repeat;
   }
 

@@ -15,7 +15,7 @@
                     <h3>${{ item.price }}</h3>
                     <button
                             v-bind:class="shopIsOpen === true ? 'btn btn-info' : 'btn disabled' "
-                            v-on:click="$emit('handleItem', item, 'add')">
+                            v-on:click="shopIsOpen === true ? $emit('handleItem', item, 'add') : ''">
                         Add to cart
                     </button>
                 </div>
@@ -26,7 +26,7 @@
 
 <style scoped>
     .product {
-        background: rgba(93, 93, 93, 0.27);
+        background: rgba(0, 0, 0, 0.76);
         padding: 15px;
         color: white;
         box-shadow: 0 6px 6px rgba(0, 0, 0, 0.41);

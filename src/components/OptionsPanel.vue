@@ -56,7 +56,7 @@
     }
 
     #app .options-panel {
-        background: rgba(93, 93, 93, 0.27);
+        background: rgba(0, 0, 0, 0.54);
         padding: 30px 10px;
         text-align: center;
         color: white;

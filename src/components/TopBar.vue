@@ -44,7 +44,7 @@
 
 <style scoped>
     .nav {
-        background: rgba(93, 93, 93, 0.27);
+        background: rgba(0, 0, 0, 0.76);
         padding: 10px;
         text-align: right;
         position: fixed;
